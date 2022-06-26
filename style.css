@@ -1,0 +1,39 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Regular-webfont.woff) ;
+}
+
+body{
+    font-family: roboto;
+}
+
+.hero,
+.footer{
+    background-color: #1F2937;
+    padding: 5px 50px 40px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text p,
+.header-link{
+    font: 18px;
+    color: #E5E7EB;
+}
+
+#sign-up{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+
