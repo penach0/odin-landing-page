@@ -5,35 +5,81 @@
 
 body{
     font-family: roboto;
+    background-color: #1F2937;
 }
 
-.hero,
-.footer{
-    background-color: #1F2937;
-    padding: 5px 50px 40px;
+.hero{
+    padding: 10px 100px 40px 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .logo{
+    display: flex;
+    justify-content: space-between;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.header-link{
+    display: flex;
+    width: 400px;
+    font: 18px;
+    color: #E5E7EB;
+    align-content: flex-start;
+    justify-content: space-between;
+    
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column ;
+    width: 420px ;
 }
 
 .hero-text h1{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.hero-text p,
-.header-link{
-    font: 18px;
-    color: #E5E7EB;
+.hero-text p{
+        font: 18px;
+        color: #E5E7EB;
+        margin-top: 0;
+        margin-bottom: 5px;
 }
 
 #sign-up{
     background-color: #3882F6;
-    color: #E5E7EB;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #F9FAF8;
     font-weight: bold;
+    align-self: flex-start;
+    padding: 10px 30px;
+    border-style: none;
+}
+
+.hero-content img{
+    width: 550px;
+}
+
+#big-pic{
+    height: 270px;
+    object-fit: fill;
 }
 
 
