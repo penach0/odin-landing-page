@@ -1,85 +1,123 @@
-@font-face {
-    font-family: roboto;
-    src: url(Roboto-Regular-webfont.woff) ;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 body{
-    font-family: roboto;
-    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-.hero{
-    padding: 10px 100px 40px 200px;
+.header,
+.middle{
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 100px;
+    background-color: #1F2937;
+    padding-top: 15px;
+    padding-bottom: 180px;
 }
 
-.logo{
+.nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo a{
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
-.header-link{
-    display: flex;
-    width: 400px;
-    font: 18px;
-    color: #E5E7EB;
-    align-content: flex-start;
-    justify-content: space-between;
-    
+.push-right{
+    margin-left: auto;
 }
 
-.hero-content{
+.header-container{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
-.hero-text{
-    display: flex;
-    flex-direction: column ;
-    width: 420px ;
+.content{
+    max-width: 400px ;
 }
 
-.hero-text h1{
+.content h1{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.hero-text p{
+.content p{
         font: 18px;
         color: #E5E7EB;
         margin-top: 0;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
 }
 
 #sign-up{
     background-color: #3882F6;
     font-size: 18px;
     border-radius: 10px;
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-weight: bold;
     align-self: flex-start;
-    padding: 10px 30px;
+    padding: 8px 30px;
     border-style: none;
 }
 
-.hero-content img{
-    width: 550px;
-}
-
 #big-pic{
-    height: 270px;
-    object-fit: fill;
+    max-height: 250px;
+    max-width: auto;
+    flex: 1;
 }
 
 
+.middle{
+    background-color: white;
+    padding-bottom: 100px;
+    margin: none;
+    text-align: center;
+}
+
+
+.middle-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pics-text{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.pics-text img{
+    height:145px;
+    width: 145px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+.pics-text p{
+    margin-top: 0;
+    color: #38393b;
+    max-width: 150px;
+}
