@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 body{
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header,
-.middle{
+.middle,
+.footer{
     padding-left: 180px;
     padding-right: 180px;
 }
@@ -169,4 +173,15 @@ a{
     border-style: solid;
     border-color: #F9FAF8;
     align-self: center;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
 }
