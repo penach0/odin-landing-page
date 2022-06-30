@@ -69,10 +69,10 @@ a{
         margin-bottom: 10px;
 }
 
-#sign-up{
+.sign-up{
     background-color: #3882F6;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 8px;
     color: #E5E7EB;
     font-weight: bold;
     align-self: flex-start;
@@ -86,14 +86,12 @@ a{
     flex: 1;
 }
 
-
 .middle{
     background-color: white;
     padding-bottom: 100px;
     margin: none;
     text-align: center;
 }
-
 
 .middle-header{
     font-size: 36px;
@@ -113,7 +111,7 @@ a{
     height:145px;
     width: 145px;
     border: 4px solid #3882F6;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .pics-text p{
@@ -122,9 +120,9 @@ a{
     max-width: 150px;
 }
 
-.quote {
+.quote{
     background-color: #E5E7EB;
-    padding: 100px 280px 80px;
+    padding: 100px 280px 90px;
     color: #1F2937;
 }
 
@@ -143,4 +141,32 @@ a{
     font-size: 28px;
     font-weight: bold;
     margin-right: 20px;
+}
+
+.call{
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: #F9FAF8;
+    margin: 80px 180px;
+    padding: 70px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call h1{
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.call p{
+    font-size: 20px;
+    margin: 0;
+}
+
+.call .sign-up{
+    border-style: solid;
+    border-color: #F9FAF8;
+    align-self: center;
 }
